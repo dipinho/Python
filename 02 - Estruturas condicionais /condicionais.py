@@ -1,11 +1,13 @@
-print("Condicional")
+print("Estrutura Condicional")
 print()
 
-valor1 = 10
-valor2 = 20
+saldo = 2000
+saque = float(input("Informe o valor do saque: "))
 
-if valor1> valor2:
-    print("O valor1 é maior do que o valor2")
+if saldo >= saque:
+    print("Saque realizado com sucesso!")
+    x = saldo - saque
+    print("Seu novo saldo é: R$ ",x)
 
 else:
-    print("O valor2 é maior que o valor1")
+    print("Saldo insuficiente!")
