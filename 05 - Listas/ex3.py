@@ -43,3 +43,6 @@ lista1 = ['Carro', 'Casa', 'Hotel', 'Carro']
 lista1.clear()
 
 print(lista1)
+
+
+print("=======================================")
